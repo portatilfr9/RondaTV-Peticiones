@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Barlow Condensed", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  
+  --color-brand-bg: #070b22;
+  --color-brand-panel: #050d1f;
+  --color-brand-accent: #78edcc;
+  --color-brand-border: rgba(120, 237, 204, 0.24);
+  --color-brand-text: #ffffff;
+  --color-brand-text-muted: rgba(255, 255, 255, 0.62);
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text font-body antialiased;
+    background-color: #070b22;
+    color: #fff;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading uppercase;
+  }
+}

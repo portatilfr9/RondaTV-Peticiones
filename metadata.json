@@ -1,0 +1,8 @@
+{
+  "name": "Ronda TV Solicita Contenido",
+  "description": "Web para solicitar contenido para la aplicación Ronda TV",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
